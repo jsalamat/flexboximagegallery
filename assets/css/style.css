@@ -33,26 +33,27 @@ body {
 	font-size: 20px;
 	background-size: cover;
 	background-position: center; 
+	flex: 1;
 }
 
 .panel1 {
-	background-image: url(../images/placeholder.jpg); 
+	background-image: url(../images/JSweb0.jpg); 
 }
 
 .panel2 {
-	background-image: url(../images/placeholder.jpg); 
+	background-image: url(../images/JSweb1.jpg); 
 }
 
 .panel3 {
-	background-image: url(../images/placeholder.jpg); 
+	background-image: url(../images/JSweb2.jpg); 
 }
 
 .panel4 {
-	background-image: url(../images/placeholder.jpg); 
+	background-image: url(../images/JSweb3.jpg); 
 }
 
 .panel5 {
-	background-image: url(../images/placeholder.jpg); 
+	background-image: url(../images/JSweb4.jpg); 
 }
 
 .panel > * {
