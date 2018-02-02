@@ -75,6 +75,16 @@ body {
 	align-items: center;
 }
 
+/*each of the first children will be -100 percent to be off screen*/
+.panel > *:first-child {
+	transform: translateY(-100%);
+}
+.panel > *:last-child {
+	transform: translateY(100%);
+}
+/*when the translate y remove it create animate transition when first or last appear on screen*/
+
+
 .panel p {
 	text-transform: uppercase;
 	font-family: 'Amatic SC', cursive;
