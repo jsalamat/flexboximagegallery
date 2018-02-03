@@ -67,7 +67,7 @@ body {
 	width: 100%;
 	transition:transform 0.5s;
 	/*guide lines*/
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	/*to evenly space column*/
 	flex: 1 0 auto;
 	display: flex;
