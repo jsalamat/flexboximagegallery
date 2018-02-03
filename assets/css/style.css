@@ -79,11 +79,17 @@ body {
 .panel > *:first-child {
 	transform: translateY(-100%);
 }
+.panel.open-active > *:first-child {
+	transform: translateY(0%);
+}
 .panel > *:last-child {
 	transform: translateY(100%);
 }
+.panel.open-active > *:last-child {
+	transform: translateY(0%);
+}
 /*when the translate y remove it create animate transition when first or last appear on screen*/
-
+/*when the panel has class of open active translateY is 0 it will animate itself on screen*/
 
 .panel p {
 	text-transform: uppercase;
@@ -96,6 +102,8 @@ body {
 	font-size: 4em;
 }
 
+/*when panel has a class of open it will have a flex of 5*/
 .panel.open {
+	flex: 5;
 	font-size:40px;
 }
